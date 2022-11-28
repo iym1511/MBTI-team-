@@ -1,0 +1,82 @@
+body{
+    
+}
+.Wrapper{
+    background-color: rgb(255, 250, 220);
+    width: 500px;
+    height: 600px;
+    margin: 150px auto;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.Header{
+    font-family: 'Humanbumsuk';
+    font-size: 40pt;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Title{
+    font-family: 'Humanbumsuk';
+    font-size: 30pt;
+    margin-top: 40px;
+}
+
+.LogoImage{
+    margin-top: 10px;
+}
+
+.Desc{
+    font-family: 'Humanbumsuk';
+    font-size: 15pt;
+    margin-top: 0px;
+}
+
+.ReStartBtn{
+    font-family: 'Humanbumsuk';
+    border-radius: 19px;
+    width: 100%;
+    min-height: 70px;
+    font-size: 15pt;
+    font-weight: bolder;
+    margin-top: 0px;
+    border: none;
+    --c: no-repeat linear-gradient(#366360 0 0);
+    background: 
+      var(--c) calc(-101% + var(--i,0)*101%) 100% / 50.1% calc(100%*var(--i,0) + .08em),
+      var(--c) calc( 201% - var(--i,0)*101%) 0    / 50.1% calc(100%*var(--i,0) + .08em);
+    transition: .3s calc(var(--i,0)*.3s), background-position .3s calc(.3s - var(--i,0)*.3s);
+}
+
+.ReStartBtn:hover {
+    --i: 1;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+  .Reciept-box{
+    position: relative;
+    left: 449px;
+    margin-left: 100px;
+    margin-top: -220px;
+    clear: right;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(255, 242, 215);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
