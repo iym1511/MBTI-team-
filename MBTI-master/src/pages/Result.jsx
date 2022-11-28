@@ -7,7 +7,7 @@ import DataContext from '../data/DataContext';
 
 
 const Result = () => {
-    const data = useContext(DataContext);
+    const {data} = useContext(DataContext);
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const mbti = searchParams.get('mbti');
@@ -36,6 +36,7 @@ const Result = () => {
             </div>
             <div>
             <span className='Reciept-box'>
+                <a href={data.state.score[].src}>업체 보러가기</a>
               <button className='ReStartBtn' onClick={()=>navigate('/Asd')}>업체 보러가기</button>{/** 다시짜기하면 넘처서 안될듯*/}
             </span>
             </div>

@@ -24,7 +24,7 @@ const Reciept = () => {
             {
               state.result.map((r,i)=>(
                 <div className="result-map" key={i}>
-                  <p style={{margin: "0"}}></p>
+                  <p style={{margin: "0"}}>{r.title}</p>
                 </div>
               ))
             }

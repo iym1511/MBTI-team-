@@ -194,17 +194,17 @@ const DataProvider = (({children}) => {
             price:"4,000만 원대 이상"
         },
         {
-          id: 6,
-          title: "F",
-          type: "상가",
-          wallpaper: "사제",
-          sash:"기타",
-          floor: "기타",
-          veranda:"기타",
-          roomdoor:"기타",
-          frontdoor:"기타",
-          light:"해당 없음",
-          price:"4,000만 원대 이상"
+            id: 6,
+            title: "F",
+            type: "상가",
+            wallpaper: "사제",
+            sash:"기타",
+            floor: "기타",
+            veranda:"기타",
+            roomdoor:"기타",
+            frontdoor:"기타",
+            light:"해당 없음",
+            price:"4,000만 원대 이상"
       },
     ])
 
@@ -213,6 +213,7 @@ const DataProvider = (({children}) => {
             id:1,
             name:"집닥1",
             best : "EST",
+            src : "https://www.naver.com/"
         },
         {
             id:2,
