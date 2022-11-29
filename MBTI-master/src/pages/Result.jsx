@@ -41,7 +41,7 @@ const Result = () => {
                     const a = resultData.best;
                     switch(a){
                             case "EST":
-                            return window.open('https://www.daum.net/');
+                            return window.open('https://www.naver.com/');
                             case "ESF":
                             return window.open('https://www.daum.net/');;
                             case "ENT":
