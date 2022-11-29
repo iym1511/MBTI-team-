@@ -213,7 +213,7 @@ const DataProvider = (({children}) => {
             id:1,
             name:"집닥1",
             best : "EST",
-            src : "https://www.naver.com/"
+           
         },
         {
             id:2,
